@@ -1,0 +1,14 @@
+{
+  "name": "Test API",
+  "description": "Just a hello world, template for later development",
+  "launch_path": "/api/listapi.html",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Khoand, Vietnt",
+    "url": "http://nec.vn"
+  },
+  "default_locale": "en",
+  "orientation":["portrait","lanscape-secondary"]
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ListAPI</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Test APIs</h1>
+    <div class="row">
+        <div class="span10 offset1">
+            <p>1. Hello Firefox OS</p>
+            <a href=html/hello.html>Hello Firefox OS</a> 
+        </div>
+        <div class="span10 offset1">
+            <p>2. Battery Status</p>
+            <a href=html/bat.html>Battery Status</a> 
+        </div>
+        <div class="span10 offset1">
+            <p>3. Vibration</p>
+            <a href=html/vibration.html>Vibration</a> 
+        </div>
+        <div class="span10 offset1">
+            <p>4. Clock</p>
+            <a href=html/time.html>Clock</a> 
+        </div>
+        <div class="span10 offset1">
+            <p>5. Orientation</p>
+            <a href=html/orientation.html>Orientation</a> 
+        </div>
+	<div class="span10 offset1">
+            <p>6. Sound</p>
+            <a href=html/sound.html>Sound</a> 
+        </div>
+	<div class="span10 offset1">
+            <p>7. Network information</p>
+            <a href=html/connection.html>Network information</a> 
+        </div>
+        <div class="span10 offset1">
+            <p>5. Proximity</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+                Proximity
+            </button><br />
+        </div>
+        <div class="span10 offset1">
+            <p>6. Ambient light</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+                Ambient light
+            </button><br />
+        </div>
+        <div class="span10 offset1">
+            <p>7. Accelerometer</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+                Accelerometer
+            </button><br />
+        </div>
+        <div class="span10 offset1">
+            <p>8. WiFi</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+                WiFi
+            </button><br />
+        </div>
+
+        <div class="span10 offset1">
+            <p>11. Orientation</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+            </button><br />
+        </div>
+        
+        <div class="span10 offset1">
+            <p>13. Power</p>
+            <button id="installButton" class="btn btn-primary" onclick="navigator.mozApps.install(manifest_url); return false;">
+                Power
+            </button><br />
+        </div>
+    </div>
+	<script>
+	function openWin()
+	{
+		myWindow=window.open('hello.html','','width=200,height=100');
+		myWindow.focus();
+	}
+	</script>
+  </body>
+</html>
